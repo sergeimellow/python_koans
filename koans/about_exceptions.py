@@ -50,7 +50,7 @@ class AboutExceptions(Koan):
         try:
             pass
         except RuntimeError:
-            result = 'it broke'
+            result = 'P broke'
             pass
         else:
             result = 'no damage done'
